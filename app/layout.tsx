@@ -20,6 +20,14 @@ export const metadata: Metadata = {
   },
   description:
     "Software developer specializing in backend systems, APIs, and clean architecture.",
+  openGraph: {
+    title: "Ofir Giat | Software Developer",
+    description:
+      "Backend and full-stack projects, APIs, and system design examples.",
+    url: "https://ofir-portfolio-nextjs.vercel.app",
+    siteName: "Ofir Giat Portfolio",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
