@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ofir-portfolio-nextjs.vercel.app/"),
   title: {
     default: "Ofir Giat | Software Developer",
     template: "%s | Ofir Giat",
