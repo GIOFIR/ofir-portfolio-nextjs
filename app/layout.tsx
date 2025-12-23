@@ -27,6 +27,18 @@ export const metadata: Metadata = {
     url: "https://ofir-portfolio-nextjs.vercel.app",
     siteName: "Ofir Giat Portfolio",
     type: "website",
+    images: [
+    {
+      url: "/og",
+      width: 1200,
+      height: 630,
+      alt: "Ofir Giat – Backend Developer Portfolio",
+    },
+    ],
+  },
+   robots: {
+    index: true,
+    follow: true,
   },
 };
 

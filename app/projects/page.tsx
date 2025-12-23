@@ -3,11 +3,18 @@ import { projects } from "@/data/projects";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects | Ofir",
+  title: "Projects | Ofir Giat",
   description:
-    "A selection of backend and software engineering projects including APIs, CLI tools, and system design work.",
-};
+    "Backend and full-stack projects including APIs, CLI tools, and system design using Python, FastAPI, PostgreSQL, and Docker.",
 
+  openGraph: {
+    title: "Projects | Ofir Giat",
+    description:
+      "A selection of backend and full-stack projects demonstrating real-world system design and development.",
+    url: "https://ofir-portfolio-nextjs.vercel.app/",
+    type: "website",
+  },
+};
 
 export default function ProjectsPage() {
   return (
