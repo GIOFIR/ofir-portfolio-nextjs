@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   },
   description:
     "Software developer specializing in backend systems, APIs, and clean architecture.",
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     title: "Ofir Giat | Software Developer",
     description:

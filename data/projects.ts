@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description:
       "Command-line application for managing task queues, including priority handling and persistence.",
     technologies: ["Python", "CLI", "Testing"],
-    link: "https://github.com/your-username/queue-manager",
+    link: "https://github.com/GIOFIR/Queue-Manager-CLI",
     category: "cli",
   },
   {
@@ -15,7 +15,7 @@ export const projects: Project[] = [
     description:
       "RESTful API for user management with authentication, migrations, and PostgreSQL integration.",
     technologies: ["FastAPI", "PostgreSQL", "Docker"],
-    link: "https://github.com/your-username/user-api",
+    link: "https://github.com/GIOFIR/Notes-API",
     category: "backend",
   },
 ];
