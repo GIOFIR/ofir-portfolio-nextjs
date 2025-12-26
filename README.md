@@ -35,10 +35,10 @@ npm install
 npm run dev
 Open http://localhost:3000
  in your browser.
-
+```
 ---
 
-(H2) ## Project Structure (High Level)
+## Project Structure (High Level)
 
 app/
   ├─ page.tsx           # Homepage
@@ -57,7 +57,7 @@ Stuck List with icons
 
 ---
 
-## Deployment (H2)
+## Deployment 
 
 The project is deployed on Vercel and automatically redeploys on every push to main.
 
