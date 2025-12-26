@@ -1,38 +1,70 @@
-# ofir-portfolio-nextjs
-My personal portfolio website showcasing projects built with Next.js, TypeScript, and Tailwind CSS.
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ofir Portfolio – Backend Developer
 
-## Getting Started
+Personal portfolio website showcasing backend-oriented projects and system design skills.
 
-First, run the development server:
+Built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.  
+Designed to be fast, SEO-friendly, and production-ready.
+
+---
+
+## Tech Stack
+
+- **Next.js** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **Vercel** (Deployment)
+- SEO & Metadata (Open Graph, per-page metadata)
+
+---
+
+## Features
+
+- Clean, minimal homepage focused on clarity and performance
+- Projects page with structured project listings
+- Dedicated pages: About, Contact
+- SEO-optimized metadata per page
+- Open Graph image for social sharing
+- Responsive layout (mobile → desktop)
+
+---
+
+## Getting Started (Local Development)
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000
+ in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+(H2) ## Project Structure (High Level)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+app/
+  ├─ page.tsx           # Homepage
+  ├─ projects/          # Projects listing
+  ├─ about/             # About page
+  ├─ contact/           # Contact page
+  └─ layout.tsx         # Global layout & metadata
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## **Planned Improvements** 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Live API integration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Stuck List with icons
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment (H2)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The project is deployed on Vercel and automatically redeploys on every push to main.
+
+---
+
+Author
+
+Ofir Giat
+Backend Developer
+Focused on APIs, data, and scalable systems
